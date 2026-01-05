@@ -1,0 +1,12 @@
+{
+  "pollUrl": "LINK ZUR MEBIS-WAHL",
+  "hour": 15,
+  "minute": 0,
+  "users": [
+    {
+      "username": "Benutzername",
+      "password": "Passwort",
+      "voteValue": "Wahl-Id"
+    }
+  ]
+}

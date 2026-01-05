@@ -1,0 +1,9 @@
+node_modules/
+
+# Build-Ordner
+dist/
+build/
+
+# IDE-spezifische Dateien
+.vscode/
+.idea/
