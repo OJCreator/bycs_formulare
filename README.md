@@ -33,7 +33,7 @@ Passe die Datei `bycs_polling_data.json` an deine Bedürfnisse an:
     {
       "username": "Benutzername",
       "password": "Passwort",
-      "voteValue": "Wahl-Id"
+      "voteValue": "Wahl-Id (normalerweise irgendeine 7-stellige Zahl)"
     }
   ]
 }
@@ -46,7 +46,11 @@ Passe die Datei `bycs_polling_data.json` an deine Bedürfnisse an:
 npx tsc
 ```
 2. Programm starten:
-3.
 ```bash
 node dist/main.js
 ```
+
+## Hinweise
+
+- Verrate nicht jedem, dass du nicht mehr manuell wählst.
+- Vertraue nicht blind auf dieses Tool, auch wenn es dazu einlädt.
