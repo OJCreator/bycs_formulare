@@ -1,7 +1,6 @@
 # bycs_formulare
 
-Automatisiertes Tool zum Abfragen von Mebis-Wahlen.  
-Mit bycs_formulare kannst du schnell und einfach Wahldaten auslesen und verarbeiten.
+Automatisiertes Tool zum Abfragen von Mebis-Wahlen.
 
 ## Voraussetzungen
 
@@ -27,8 +26,8 @@ Passe die Datei `bycs_polling_data.json` an deine Bedürfnisse an:
 ```json
 {
   "pollUrl": "LINK ZUR MEBIS-WAHL",
-  "hour": Stunde,
-  "minute": Minute,
+  "hour": 15,
+  "minute": 0,
   "users": [
     {
       "username": "Benutzername",
@@ -38,6 +37,8 @@ Passe die Datei `bycs_polling_data.json` an deine Bedürfnisse an:
   ]
 }
 ```
+
+So wird sich das Tool automatisch in Mebis einloggen und um genau 15:00 die Abstimmungs-Url öffnen, die Wahl mit der entsprechenden `voteValue` treffen und absenden.
 
 ## Kompelieren und Ausführen
 
@@ -54,3 +55,4 @@ node dist/main.js
 
 - Verrate nicht jedem, dass du nicht mehr manuell wählst.
 - Vertraue nicht blind auf dieses Tool, auch wenn es dazu einlädt.
+- Zumindest im Dezember 2025 hat es noch funktioniert.
